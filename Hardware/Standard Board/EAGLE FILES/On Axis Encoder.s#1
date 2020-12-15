@@ -28885,10 +28885,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2"/>
-<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -28986,22 +28982,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R17" gate="G$1" x="58.42" y="53.34" smashed="yes">
 <attribute name="NAME" x="54.61" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.61" y="50.038" size="1.778" layer="96"/>
-</instance>
-<instance part="R28" gate="G$1" x="91.44" y="20.32" smashed="yes">
-<attribute name="NAME" x="87.63" y="21.8186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="17.018" size="1.778" layer="96"/>
-</instance>
-<instance part="R35" gate="G$1" x="88.9" y="27.94" smashed="yes">
-<attribute name="NAME" x="85.09" y="29.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="24.638" size="1.778" layer="96"/>
-</instance>
-<instance part="R38" gate="G$1" x="109.22" y="25.4" smashed="yes">
-<attribute name="NAME" x="105.41" y="26.8986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.41" y="22.098" size="1.778" layer="96"/>
-</instance>
-<instance part="R43" gate="G$1" x="104.14" y="12.7" smashed="yes">
-<attribute name="NAME" x="100.33" y="14.1986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.33" y="9.398" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
