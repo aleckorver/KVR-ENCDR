@@ -25007,8 +25007,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U400" library="Jetfoiler" library_urn="urn:adsk.eagle:library:16655966" deviceset="MS5837-02BA" device="-06-50" package3d_urn="urn:adsk.eagle:package:23616324/2"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C401" library="rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1nF"/>
 <part name="JD04" library="Wurth_Connectors_WR-MPC3" library_urn="urn:adsk.eagle:library:15779237" deviceset="6620XX21122_66201621122" device="" package3d_urn="urn:adsk.eagle:package:15779502/2"/>
 <part name="U700" library="PSFBC" library_urn="urn:adsk.eagle:library:23425389" deviceset="TPS7A6933QDRQ1" device="" value="Value"/>
@@ -25234,7 +25234,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D2" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
 <part name="TVS801" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAS70-04" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -27297,9 +27296,9 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <attribute name="NAME" x="203.2" y="77.6986" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="204.47" y="72.898" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="228.6" y="71.12" smashed="yes">
-<attribute name="NAME" x="230.886" y="70.485" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="230.886" y="68.199" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="220.98" y="71.12" smashed="yes">
+<attribute name="NAME" x="223.266" y="70.485" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="223.266" y="68.199" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JD04" gate="G$1" x="125.095" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.83" y="89.25" size="3.81" layer="95" font="vector"/>
@@ -27421,10 +27420,6 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <instance part="D2" gate="G$1" x="160.02" y="86.36" smashed="yes" rot="MR90">
 <attribute name="NAME" x="157.48" y="86.36" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
 </instance>
-<instance part="R8" gate="G$1" x="220.98" y="76.2" smashed="yes">
-<attribute name="NAME" x="218.44" y="77.6986" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="219.71" y="72.898" size="1.778" layer="96" font="vector"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -27442,7 +27437,7 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <wire x1="213.36" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="213.36" y="66.04"/>
 <pinref part="TVS3" gate="G$1" pin="A1"/>
 <wire x1="195.58" y1="71.12" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
@@ -27577,13 +27572,16 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 </net>
 <net name="PC2/PRSR" class="0">
 <segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<junction x="213.36" y="76.2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="73.66" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="73.66" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="246.38" y="76.454" size="0.8128" layer="95" rot="R180"/>
-<wire x1="228.6" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
-<junction x="228.6" y="76.2"/>
+<wire x1="220.98" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="220.98" y="76.2"/>
 </segment>
 </net>
 <net name="PRESSURE" class="0">
@@ -27828,16 +27826,6 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <label x="92.71" y="126.492" size="0.8128" layer="95"/>
 <pinref part="JTEMP" gate="G$1" pin="4"/>
 <wire x1="101.6" y1="127" x2="98.425" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<junction x="213.36" y="76.2"/>
 </segment>
 </net>
 </nets>

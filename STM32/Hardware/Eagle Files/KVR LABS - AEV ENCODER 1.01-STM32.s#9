@@ -24986,7 +24986,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="JPROG" library="TagConnect" deviceset="TC2050-IDC" device=""/>
+<part name="PROG" library="TagConnect" deviceset="TC2050-IDC" device=""/>
 <part name="U300" library="PSFBC" library_urn="urn:adsk.eagle:library:23425389" deviceset="TLE5012B" device=""/>
 <part name="R301" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R302" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
@@ -25007,8 +25007,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U400" library="Jetfoiler" library_urn="urn:adsk.eagle:library:16655966" deviceset="MS5837-02BA" device="-06-50" package3d_urn="urn:adsk.eagle:package:23616324/2"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C401" library="rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1nF"/>
 <part name="JD04" library="Wurth_Connectors_WR-MPC3" library_urn="urn:adsk.eagle:library:15779237" deviceset="6620XX21122_66201621122" device="" package3d_urn="urn:adsk.eagle:package:15779502/2"/>
 <part name="U700" library="PSFBC" library_urn="urn:adsk.eagle:library:23425389" deviceset="TPS7A6933QDRQ1" device="" value="Value"/>
@@ -25027,8 +25027,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D301" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAS70-04" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D302" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAS70-04" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D303" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAS70-04" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="D8" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
 <part name="SUPPLY3" library="+400V" deviceset="+12V" device=""/>
-<part name="D1" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
+<part name="D7" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
 <part name="D6" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -25066,7 +25067,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:24925482" deviceset="A4L-LOC" device=""/>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:24925482" deviceset="A4L-LOC" device=""/>
 <part name="R801" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="C801" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C801" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -25221,8 +25222,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R204" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="F1" library="Circuit-Protection" library_urn="urn:adsk.eagle:library:16378135" deviceset="FUSE" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378156/1" technology="_" value="SF-0603HIA300M-2"/>
 <part name="F2" library="Circuit-Protection" library_urn="urn:adsk.eagle:library:16378135" deviceset="FUSE" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378156/1" technology="_" value="SF-0603HIA100M-2"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1nF"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1nF"/>
 <part name="TVS1" library="PSFBC" library_urn="urn:adsk.eagle:library:23425389" deviceset="SM15TY" device="" value="SM15T18AY"/>
 <part name="TVS2" library="PSFBC" library_urn="urn:adsk.eagle:library:23425389" deviceset="SM15TY" device="" value="SM15T6V8AY"/>
 <part name="SUPPLY18" library="+400V" deviceset="+12V" device=""/>
@@ -25231,10 +25232,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="F3" library="Circuit-Protection" library_urn="urn:adsk.eagle:library:16378135" deviceset="FUSE" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378156/1" technology="_" value="SF-0603HIA100M-2"/>
 <part name="D901" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
 <part name="C902" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
-<part name="D2" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
-<part name="TVS801" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAS70-04" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -26405,7 +26402,7 @@ HIGH       x       BIAS TO GND</text>
 <text x="226.06" y="20.32" size="2.032" layer="94">AEV ENCODER</text>
 <text x="232.41" y="15.24" size="1.6764" layer="94">PRESSURE SENSOR</text>
 <text x="245.11" y="5.08" size="2.032" layer="94">A</text>
-<text x="223.52" y="5.08" size="1.6764" layer="94">Dec 13, 2020</text>
+<text x="223.52" y="5.08" size="1.6764" layer="94">Dec 3, 2020</text>
 </plain>
 <instances>
 <instance part="R401" gate="G$1" x="142.24" y="73.66" smashed="yes" rot="MR90">
@@ -27254,6 +27251,7 @@ HIGH       x       BIAS TO GND</text>
 <wire x1="246.634" y1="75.184" x2="247.65" y2="76.2" width="0.1524" layer="95"/>
 <wire x1="247.65" y1="76.2" x2="246.634" y2="77.216" width="0.1524" layer="95"/>
 <text x="223.52" y="104.14" size="5.08" layer="97" font="vector" rot="MR0">STATUS LEDS</text>
+<text x="158.75" y="87.122" size="1.778" layer="95" font="vector" rot="R180">D8</text>
 <text x="232.41" y="15.24" size="1.6764" layer="94">CONNECTORS</text>
 <text x="104.648" y="82.55" size="0.762" layer="95" rot="R180">SF-0603HIA300M-2
 (3A Medium Blow Fuse)
@@ -27285,21 +27283,21 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <text x="137.16" y="91.44" size="2.032" layer="94" font="vector">(2)</text>
 </plain>
 <instances>
-<instance part="JPROG" gate="A" x="40.005" y="73.66" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="32.893" y="63.5" size="2.54" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="44.45" y="87.122" size="3.81" layer="95" font="vector" rot="MR0"/>
+<instance part="PROG" gate="A" x="40.005" y="73.66" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="27.813" y="88.9" size="2.54" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="34.29" y="65.278" size="3.81" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="R3" gate="G$1" x="213.36" y="71.12" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="213.36" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="212.09" y="72.1614" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="212.09" y="69.977" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R2" gate="G$1" x="205.74" y="76.2" smashed="yes">
+<instance part="R7" gate="G$1" x="205.74" y="76.2" smashed="yes">
 <attribute name="NAME" x="203.2" y="77.6986" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="204.47" y="72.898" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="228.6" y="71.12" smashed="yes">
-<attribute name="NAME" x="230.886" y="70.485" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="230.886" y="68.199" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="220.98" y="71.12" smashed="yes">
+<attribute name="NAME" x="223.266" y="70.485" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="223.266" y="68.199" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JD04" gate="G$1" x="125.095" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.83" y="89.25" size="3.81" layer="95" font="vector"/>
@@ -27308,10 +27306,11 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <instance part="TVS3" gate="G$1" x="195.58" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="201.803" y="83.8454" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="D8" gate="G$1" x="160.02" y="85.979" smashed="yes" rot="R90"/>
 <instance part="SUPPLY3" gate="+12V" x="86.36" y="93.98" smashed="yes">
 <attribute name="VALUE" x="83.82" y="96.901" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D1" gate="G$1" x="71.12" y="83.82" smashed="yes" rot="MR180">
+<instance part="D7" gate="G$1" x="71.12" y="83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="71.12" y="86.36" size="1.778" layer="95" font="vector" rot="MR180" align="center"/>
 </instance>
 <instance part="D6" gate="G$1" x="16.129" y="68.58" smashed="yes" rot="MR0">
@@ -27405,11 +27404,11 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <instance part="F2" gate="G$1" x="147.32" y="81.28" smashed="yes">
 <attribute name="NAME" x="146.05" y="82.677" size="1.778" layer="95"/>
 </instance>
-<instance part="R1" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.71" y="69.6214" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="92.71" y="67.437" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="99.06" y="68.58" smashed="yes">
+<instance part="C3" gate="G$1" x="99.06" y="68.58" smashed="yes">
 <attribute name="NAME" x="101.346" y="67.945" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="101.346" y="65.659" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -27418,31 +27417,24 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <instance part="F3" gate="G$1" x="55.88" y="83.82" smashed="yes">
 <attribute name="NAME" x="54.61" y="85.217" size="1.778" layer="95"/>
 </instance>
-<instance part="D2" gate="G$1" x="160.02" y="86.36" smashed="yes" rot="MR90">
-<attribute name="NAME" x="157.48" y="86.36" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
-</instance>
-<instance part="R8" gate="G$1" x="220.98" y="76.2" smashed="yes">
-<attribute name="NAME" x="218.44" y="77.6986" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="219.71" y="72.898" size="1.778" layer="96" font="vector"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="3"/>
+<pinref part="PROG" gate="A" pin="3"/>
 <wire x1="47.625" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="76.2" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="73.66" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="213.36" y="66.04"/>
 <pinref part="TVS3" gate="G$1" pin="A1"/>
 <wire x1="195.58" y1="71.12" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
@@ -27468,9 +27460,9 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <junction x="187.96" y="119.38"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
 <wire x1="99.06" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
@@ -27499,21 +27491,21 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 </net>
 <net name="RST" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="9"/>
+<pinref part="PROG" gate="A" pin="9"/>
 <wire x1="47.625" y1="68.58" x2="51.435" y2="68.58" width="0.1524" layer="91"/>
 <label x="52.832" y="68.072" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PA9/USART1_TX" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="2"/>
+<pinref part="PROG" gate="A" pin="2"/>
 <wire x1="32.385" y1="78.74" x2="29.845" y2="78.74" width="0.1524" layer="91"/>
 <label x="19.812" y="78.232" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PA10/USART1_RX" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="4"/>
+<pinref part="PROG" gate="A" pin="4"/>
 <wire x1="32.385" y1="76.2" x2="29.845" y2="76.2" width="0.1524" layer="91"/>
 <label x="19.812" y="75.692" size="0.8128" layer="95"/>
 </segment>
@@ -27551,7 +27543,7 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <wire x1="93.98" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <junction x="86.36" y="83.82"/>
 <wire x1="73.66" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="IFC" class="0">
@@ -27577,13 +27569,16 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 </net>
 <net name="PC2/PRSR" class="0">
 <segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<junction x="213.36" y="76.2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="73.66" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="73.66" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="246.38" y="76.454" size="0.8128" layer="95" rot="R180"/>
-<wire x1="228.6" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
-<junction x="228.6" y="76.2"/>
+<wire x1="220.98" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="220.98" y="76.2"/>
 </segment>
 </net>
 <net name="PRESSURE" class="0">
@@ -27595,7 +27590,7 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <segment>
 <label x="245.872" y="81.534" size="0.8128" layer="95" rot="R180"/>
 <pinref part="TVS3" gate="G$1" pin="C1A2"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
 <junction x="193.04" y="76.2"/>
@@ -27657,7 +27652,7 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <net name="N$13" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<pinref part="JPROG" gate="A" pin="10"/>
+<pinref part="PROG" gate="A" pin="10"/>
 <wire x1="18.669" y1="68.58" x2="32.385" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27682,11 +27677,9 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <pinref part="SUPPLY24" gate="G$1" pin="+5V/1"/>
 </segment>
 <segment>
+<pinref part="D8" gate="G$1" pin="C"/>
 <pinref part="SUPPLY9" gate="G$1" pin="+5V/1"/>
-<wire x1="160.02" y1="88.519" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="160.02" y1="88.9" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
-<junction x="160.02" y="88.9"/>
+<wire x1="160.02" y1="88.519" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -27709,30 +27702,37 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <wire x1="220.98" y1="127" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="PC1/TEMP2" class="0">
+<segment>
+<label x="92.71" y="126.492" size="0.8128" layer="95"/>
+<pinref part="JTEMP" gate="G$1" pin="4"/>
+<wire x1="101.6" y1="127" x2="98.425" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="PA11/USB_D-" class="1">
 <segment>
-<pinref part="JPROG" gate="A" pin="8"/>
+<pinref part="PROG" gate="A" pin="8"/>
 <wire x1="32.385" y1="71.12" x2="29.845" y2="71.12" width="0.1524" layer="91"/>
 <label x="19.812" y="70.612" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PA12/USB_D+" class="1">
 <segment>
-<pinref part="JPROG" gate="A" pin="6"/>
+<pinref part="PROG" gate="A" pin="6"/>
 <wire x1="32.385" y1="73.66" x2="29.845" y2="73.66" width="0.1524" layer="91"/>
 <label x="19.812" y="73.152" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="5"/>
+<pinref part="PROG" gate="A" pin="5"/>
 <wire x1="47.625" y1="73.66" x2="51.435" y2="73.66" width="0.1524" layer="91"/>
 <label x="52.832" y="73.152" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PB2/BOOT1" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="7"/>
+<pinref part="PROG" gate="A" pin="7"/>
 <wire x1="47.625" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <label x="52.832" y="70.612" size="0.8128" layer="95"/>
 </segment>
@@ -27773,7 +27773,7 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="V_USB"/>
 <wire x1="66.04" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -27783,8 +27783,8 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 </net>
 <net name="SHIELD" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JD04" gate="G$1" pin="3"/>
 <wire x1="120.015" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
@@ -27811,33 +27811,17 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="TVS2" gate="G$1" pin="P$2"/>
 <wire x1="152.4" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="83.439" width="0.1524" layer="91"/>
 <junction x="160.02" y="81.28"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="JPROG" gate="A" pin="1"/>
+<pinref part="PROG" gate="A" pin="1"/>
 <pinref part="F3" gate="G$1" pin="1"/>
 <wire x1="47.625" y1="78.74" x2="47.625" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="47.625" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="-M2TEMP" class="0">
-<segment>
-<label x="92.71" y="126.492" size="0.8128" layer="95"/>
-<pinref part="JTEMP" gate="G$1" pin="4"/>
-<wire x1="101.6" y1="127" x2="98.425" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<junction x="213.36" y="76.2"/>
 </segment>
 </net>
 </nets>
@@ -27857,21 +27841,21 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <wire x1="118.872" y1="101.346" x2="120.904" y2="101.854" width="0.1524" layer="94"/>
 <wire x1="120.904" y1="101.854" x2="119.38" y2="102.362" width="0.1524" layer="94"/>
 <text x="118.618" y="98.552" size="1.778" layer="94" font="vector" rot="MR0">NTC</text>
-<text x="106.934" y="102.87" size="1.016" layer="95" font="vector">+M2TEMP</text>
+<text x="106.934" y="102.87" size="1.778" layer="95" font="vector">+M2TEMP</text>
 <text x="226.06" y="20.32" size="2.032" layer="94">AEV ENCODER</text>
 <text x="232.41" y="15.24" size="1.6764" layer="94">TEMP SENSOR 2</text>
 <text x="245.11" y="5.08" size="2.032" layer="94">A</text>
-<text x="223.52" y="5.08" size="1.6764" layer="94">Dec 13, 2020</text>
+<text x="223.52" y="5.08" size="1.6764" layer="94">Dec 3, 2020</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="R801" gate="G$1" x="119.38" y="83.82" smashed="yes" rot="MR270">
-<attribute name="NAME" x="118.11" y="85.0646" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="118.11" y="82.296" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="R801" gate="G$1" x="119.38" y="86.36" smashed="yes" rot="MR270">
+<attribute name="NAME" x="118.11" y="86.5886" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="118.11" y="84.328" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="C801" gate="G$1" x="154.94" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="164.084" y="90.17" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="165.354" y="87.249" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C801" gate="G$1" x="132.08" y="88.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="128.524" y="87.63" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="129.794" y="84.709" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="119.38" y="109.982" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="121.92" y="112.522" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -27879,65 +27863,39 @@ J1 AND J2 ABOVE REFER TO GTAKE D04 SERIES HEADERS (NOT HEADERS IN THIS SCHEMATIC
 <instance part="SUPPLY16" gate="GND" x="119.38" y="76.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="121.285" y="73.025" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="TVS801" gate="G$1" x="127" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="137.541" y="98.3234" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="R7" gate="G$1" x="144.78" y="93.98" smashed="yes">
-<attribute name="NAME" x="142.24" y="95.4786" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="143.51" y="90.678" size="1.778" layer="96" font="vector"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="119.38" y1="102.362" x2="106.68" y2="102.362" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="102.362" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="102.362" x2="109.22" y2="102.362" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="102.362" x2="119.38" y2="107.442" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="TVS801" gate="G$1" pin="C2"/>
-<wire x1="119.38" y1="106.68" x2="119.38" y2="107.442" width="0.1524" layer="91"/>
-<wire x1="127" y1="99.06" x2="127" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="127" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
-<junction x="119.38" y="106.68"/>
-</segment>
-</net>
-<net name="PC1/TEMP2" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="C801" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
-<junction x="154.94" y="93.98"/>
-<label x="157.48" y="93.98" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <pinref part="R801" gate="G$1" pin="2"/>
-<pinref part="TVS801" gate="G$1" pin="A1"/>
-<wire x1="127" y1="88.9" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C801" gate="G$1" pin="2"/>
-<wire x1="127" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="78.74" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="127" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
-<junction x="127" y="78.74"/>
+<wire x1="132.08" y1="78.74" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <junction x="119.38" y="78.74"/>
 </segment>
 </net>
-<net name="-M2TEMP" class="0">
+<net name="PC1/TEMP2" class="0">
 <segment>
-<wire x1="119.38" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="88.9" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C801" gate="G$1" pin="1"/>
 <pinref part="R801" gate="G$1" pin="1"/>
-<pinref part="TVS801" gate="G$1" pin="C1A2"/>
-<wire x1="124.46" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
-<junction x="119.38" y="93.98"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-<junction x="124.46" y="93.98"/>
-<label x="106.68" y="93.98" size="1.016" layer="95" font="vector"/>
+<wire x1="119.38" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="91.44"/>
+<wire x1="132.08" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="91.44" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<junction x="119.38" y="91.44"/>
+<label x="111.76" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -27955,7 +27913,7 @@ Current Pulse: 2A Max</text>
 <text x="226.06" y="20.32" size="2.032" layer="94">AEV ENCODER</text>
 <text x="232.41" y="15.24" size="1.6764" layer="94">SOLENOID SWITCH</text>
 <text x="245.11" y="5.08" size="2.032" layer="94">A</text>
-<text x="223.52" y="5.08" size="1.6764" layer="94">DEC 13, 2020</text>
+<text x="223.52" y="5.08" size="1.6764" layer="94">DEC 3, 2020</text>
 </plain>
 <instances>
 <instance part="QP901" gate="G$1" x="124.46" y="114.3" smashed="yes" rot="MR180"/>
